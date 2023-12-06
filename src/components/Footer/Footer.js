@@ -1,9 +1,10 @@
-import Direitos from "./Direitos";
-import LogoFooter from "./LogoFooter";
-import NavContato from "./NavContato";
-import NavInformacao from "./NavInformacao";
-import TituloFooterContato from "./TituloFooterContato";
-import TituloFooterInformacao from "./TituloFooterInformacao";
+import Direitos from './Direitos';
+import LogoFooter from './LogoFooter';
+import NavContato from './NavContato';
+import NavInformacao from './NavInformacao';
+import TituloFooterContato from './TituloFooterContato';
+import TituloFooterInformacao from './TituloFooterInformacao';
+import './footer.css';
 
 
 function Footer() {

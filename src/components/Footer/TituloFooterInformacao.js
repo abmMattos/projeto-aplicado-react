@@ -1,7 +1,7 @@
 function TituloFooterInformacao() {
     return (
-        <div class="titulo-footer">
-            <h3 class="titulo-footer">INFORMAÇÕES</h3><br />
+        <div className="titulo-footer">
+            <h3 className="titulo-footer">INFORMAÇÕES</h3><br />
         </div>
     )
 }

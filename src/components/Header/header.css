@@ -1,0 +1,94 @@
+header {
+    display: grid;
+
+}
+header ul {
+    padding: 0px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    justify-items: center;
+    justify-content: first baseline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../../assets/header-bg.png);
+    background-size: cover;
+    height: 800px;
+}
+
+.header-logo {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.header-menu {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    justify-content: space-around;
+    justify-items: center;
+    list-style: none;
+    display: inline-flex;
+}
+
+#botao-pedido a {
+    background: #FFB000;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+
+
+}
+
+.header-titulo {
+    text-decoration: none;
+    font-size: 72px;
+    font-weight: 100;
+    display: grid;
+    font-family: 'Jim Nightshade', cursive;
+    text-align: center;
+    margin-top: -500px;
+    line-height: 100px;
+
+}
+
+.titulo-amarelo {
+    color: #FFB000;
+}
+
+.h1-cor {
+    color: #FFB000;
+    font-size: 120px;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.faca-pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #FFB000;
+}

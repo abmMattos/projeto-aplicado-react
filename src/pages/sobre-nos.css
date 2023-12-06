@@ -1,0 +1,76 @@
+#main-sobre-nos {
+    background-color: #f2f2f2;
+    padding: 0px 7%;
+}
+#sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-bottom: 80px;
+}
+#diferencial-velocidade-preparo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+#titulo-sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#conteudo-sobre-nos {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+#conteudo-sobre-nos h2 {
+    text-align: center;
+    color: #000000;
+    font-family: Jim Nightshade;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#conteudo-sobre-nos h2 span {
+    color: #FFB000;
+    font-family: 'Jim Nightshade', cursive;
+}
+#texto-sobre-nos {
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+#imagens-sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#titulo-nossa-missao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    color: #000;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#titulo-nossa-missao h2 {
+    text-align: center;
+    font-family: Jim Nightshade;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#titulo-nossa-missao h2 span {
+    color: #FFB000;
+    font-family: 'Jim Nightshade', cursive;
+}

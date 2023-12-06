@@ -1,16 +1,21 @@
-import React, { useState } from 'react';
 import './App.css';
-import Footer from './components/Body/Footer/Footer';
-import Header from './components/Body/Header/Header';
-import Main from './components/Body/Main/Main';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <body>
-      <Header />
-      <Main />
-      <Footer />
-    </body>
+  
+    <div className="app">
+
+    <main>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+
+      </Routes>
+    </main>
+    <Footer />
+  </div>
   );
 }
 
