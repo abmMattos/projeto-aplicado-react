@@ -14,56 +14,57 @@ function Home() {
     return (
         <div>
             <Header titulo="Bem-Vindo à" tituloAmarelo="COMIDARIA" />
-            <Diferencial />
-            <SobreNosHome titulo="Um pouco" tituloAmarelo="Sobre Nós" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem neque" botao="VER MAIS" img1={img1} img2={img2} />
-            <section>
-                <div className="faca-pedido-home">
-                    <div className="faca-pedido-bg-home">
+            <main>
+                <Diferencial />
+                <SobreNosHome titulo="Um pouco" tituloAmarelo="Sobre Nós" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem neque" botao="VER MAIS" img1={img1} img2={img2} />
+                <section>
+                    <div className="faca-pedido-home">
+
                         <h2 className="faca-pedido-home-texto-h2"> Faça sua refeição com uma marmita <span
                             className=" titulo-amarelo">Personalizada</span><br /> por você</h2>
                         <p className="faca-pedido-home-texto">Marmitas personalizadas no conforto do seu <span
                             className=" titulo-amarelo">LAR</span> a partir de R$15,90!</p>
                         <FacaSeuPedido />
+
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <Especialidades />
+                <Especialidades />
 
-            <Galeria />
+                <Galeria />
 
-            <section>
-                <div className="funcionamento-bg funcionamento-align">
-                    <div className="linhas-titulo-funcionamento funcionamento-titulo">
-                        <img src={linhaTituloEsquerda} alt="" />
-                        <h2 className="funcionamento-titulo">Funcionamento</h2>
-                        <img src={linhaTituloDireita} alt="" />
+                <section>
+                    <div className="funcionamento-bg funcionamento-align">
+                        <div className="linhas-titulo-funcionamento funcionamento-titulo">
+                            <img src={linhaTituloEsquerda} alt="" />
+                            <h2 className="funcionamento-titulo">Funcionamento</h2>
+                            <img src={linhaTituloDireita} alt="" />
+                        </div>
+
+                        <div className="funcionamento">
+                            <p className="funcionamento-home-texto">Segunda-Feira: <span
+                                className="titulo-amarelo">........................................</span> 10:30 às 00:00</p>
+                            <p className="funcionamento-home-texto">Terça-Feira: <span
+                                className="titulo-amarelo">.............................................</span> 10:30 às 00:00
+                            </p>
+                            <p className="funcionamento-home-texto">Quarta-Feira: <span
+                                className="titulo-amarelo">...........................................</span> 10:30 às 00:00</p>
+                            <p className="funcionamento-home-texto">Quinta-Feira: <span
+                                className="titulo-amarelo">...........................................</span> 10:30 às 00:00</p>
+                            <p className="funcionamento-home-texto">Sexta-Feira: <span
+                                className="titulo-amarelo">.............................................</span> 10:30 às 00:00
+                            </p>
+                            <p className="funcionamento-home-texto">Sabádo: <span
+                                className="titulo-amarelo">.........................</span> 11:00 às 15:00 / 18:00 às 23:00</p>
+                            <p className="funcionamento-home-texto ultimo-p">Domingo: <span
+                                className="titulo-amarelo">..................................................</span> 11:00 às
+                                15:00</p>
+                        </div>
+
                     </div>
 
-                    <div className="funcionamento">
-                        <p className="funcionamento-home-texto">Segunda-Feira: <span
-                            className="titulo-amarelo">........................................</span> 10:30 ás 00:00</p>
-                        <p className="funcionamento-home-texto">Terça-Feira: <span
-                            className="titulo-amarelo">.............................................</span> 10:30 ás 00:00
-                        </p>
-                        <p className="funcionamento-home-texto">Quarta-Feira: <span
-                            className="titulo-amarelo">...........................................</span> 10:30 ás 00:00</p>
-                        <p className="funcionamento-home-texto">Quinta-Feira: <span
-                            className="titulo-amarelo">...........................................</span> 10:30 ás 00:00</p>
-                        <p className="funcionamento-home-texto">Sexta-Feira: <span
-                            className="titulo-amarelo">.............................................</span> 10:30 ás 00:00
-                        </p>
-                        <p className="funcionamento-home-texto">Sabádo: <span
-                            className="titulo-amarelo">.........................</span> 11:00 ás 15:00 / 18:00 ás 23:00</p>
-                        <p className="funcionamento-home-texto ultimo-p">Domingo: <span
-                            className="titulo-amarelo">..................................................</span> 11:00 ás
-                            15:00</p>
-                    </div>
-
-                </div>
-
-            </section>
-
+                </section>
+            </main>
         </div>
     )
 }

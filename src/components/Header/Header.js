@@ -8,8 +8,9 @@ function Header(props) {
         <header className="header-bg">
             <div className="header">
                 <LogoHeader />
-                <Nav />
-                <TituloHeader titulo={props.titulo} tituloAmarelo={props.tituloAmarelo} /></div>
+                <div><Nav /></div>
+            </div>
+            <TituloHeader titulo={props.titulo} tituloAmarelo={props.tituloAmarelo} />
         </header>
     )
 }

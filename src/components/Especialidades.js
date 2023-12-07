@@ -7,6 +7,7 @@ import img2 from "../assets/img2-especialidade.png";
 import img3 from "../assets/img3-especialidade.png";
 import setaDireita from "../assets/seta-direita.svg";
 import setaEsquerda from "../assets/seta-esquerda.svg";
+import './Especialidades.css';
 
 function Especialidades() {
     return (
