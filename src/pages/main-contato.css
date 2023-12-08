@@ -54,9 +54,17 @@
     margin-top: 100px;
 }
 
+.campos-geral{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
 #formulario form {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 54%;
     padding: 75px 0px 75px 75px;
     gap: 30px;
@@ -86,12 +94,9 @@ textarea {
     width: auto;
     height: auto;
 }
-.botao-formulario {
-    display: flex;
-    flex-direction: row;
-}
+
 .botao-formulario button {
-    display: inline-flex;
+    display: flex;
     height: 65px;
     padding: 16px 32px;
     justify-content: center;

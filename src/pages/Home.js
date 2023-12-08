@@ -16,7 +16,7 @@ function Home() {
             <Header titulo="Bem-Vindo à" tituloAmarelo="COMIDARIA" />
             <main>
                 <Diferencial />
-                <SobreNosHome titulo="Um pouco" tituloAmarelo="Sobre Nós" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem neque" botao="VER MAIS" img1={img1} img2={img2} />
+                <SobreNosHome pagina="home" titulo="Um pouco" tituloAmarelo="Sobre Nós" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem neque" botao="VER MAIS" img1={img1} img2={img2} />
                 <section>
                     <div className="faca-pedido-home">
 

@@ -12,11 +12,11 @@ function Footer() {
         <footer>
             <section id="conteudo-footer">
                 <LogoFooter />
-                <div id="contato-footer" class="conteudo">
+                <div id="contato-footer" className="conteudo">
                     <TituloFooterContato />
                     <NavContato />
                 </div>
-                <div id="informacoes-footer" class="conteudo">
+                <div id="informacoes-footer" className="conteudo">
                     <TituloFooterInformacao />
                     <NavInformacao />
                 </div>

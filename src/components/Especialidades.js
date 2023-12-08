@@ -13,12 +13,12 @@ function Especialidades() {
     return (
         <section className="titulo-especialidade-home especialidades-bg">
             <div className="especialidade-organizacao">
-                <div id="titulo-sobre-nos">
+                <div className="titulo-especialidades">
                     <div className="linhas-titulo">
                         <img src={linhaTituloEsquerda} alt="" />
                     </div>
                     <div>
-                        <h2 className="especialidades-titulo">Nossas <span class="especialidades-titulo titulo-amarelo">Especialidades</span></h2>
+                        <h2 className="especialidades-titulo">Nossas <span className="especialidades-titulo titulo-amarelo">Especialidades</span></h2>
                     </div>
                     <div className="linhas-titulo">
                         <img src={linhaTituloDireita} alt="" />

@@ -1,3 +1,4 @@
+import './TiposCard.css';
 
 function TiposCard(props) {
 

@@ -43,3 +43,15 @@
     gap: 40px;
 
 }
+.titulo-sobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
