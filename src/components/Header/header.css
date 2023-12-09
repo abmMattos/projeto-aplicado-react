@@ -44,10 +44,14 @@ ul {
     justify-content: center;
     align-items: center;
 }
+.item-menu {
+    padding: 10px 15px;
+}
+.item-menu:hover {
 
-
-
-
+    background-color: #FFB000;
+    border-radius: 5% ;
+}
 h1 {
     color: white;
     font-size: 80px;

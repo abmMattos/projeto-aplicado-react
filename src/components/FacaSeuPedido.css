@@ -26,3 +26,6 @@
     font-size: 24px;
     margin-left: 60px;
 }
+.botao-ver-pedido:hover {
+    cursor: pointer;
+}
