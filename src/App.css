@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'glacial-indifference-regular';
+  src: url('/src/assets/font/glacial-indifference.regular.otf') format('otf');
+}
+@font-face {
+  font-family: 'fearless-basic-art';
+  src: url('/src/assets/font/fearless-basic-art.ttf') format('ttf');
+}
+p, a, li, button {
+  font-family: 'glacial-indifference-regular';
+}
+h1, h2, span {
+  font-family: 'fearless-basic-art';
+}
 .App {
   text-align: center;
 }

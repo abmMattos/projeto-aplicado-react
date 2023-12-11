@@ -33,7 +33,7 @@ function Galeria() {
             </div>
             <div className="galeria-link">
                 <img src={instagram} alt="instagram" />
-                <a href="https://www.instagram.com/comidaria.express/">VER MAIS</a>
+                <a href="https://www.instagram.com/comidaria.express/" target="_blank">VER MAIS</a>
             </div>
         </section>
     )
