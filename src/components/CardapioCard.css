@@ -22,3 +22,8 @@
     color: #500806;
     font-weight: 700;
 }
+.item-categoria img{
+    border-radius: 25px;
+    height: 178px;
+    width: 270px;
+}
