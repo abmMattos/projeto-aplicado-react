@@ -15,7 +15,6 @@ u{
     flex-wrap: wrap;
     flex-grow: initial;
     gap: 20px;
-    padding: 60px 0px;
 }
 
 .titulo-pagina{
@@ -24,6 +23,7 @@ u{
     align-items: center;
     gap: 30px;
     margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 
 main{
@@ -32,4 +32,12 @@ main{
 
 .categoria{
     margin-left: 10vw;
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15vh;
+}
+
+.titulo-categoria {
+    margin-left: 10vw;
+    margin-bottom: 5vh;
 }

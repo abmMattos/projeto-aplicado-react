@@ -1,7 +1,7 @@
 import './SobreNosHome.css';
 import linhaTituloEsquerda from '../assets/linhas-titulo-esquerda.svg';
 import linhaTituloDireita from '../assets/linhas-titulo-direita.svg';
-
+import { Link } from 'react-router-dom';
 function SobreNosHome(props) {
     if (props.pagina == "home") {
         return (
@@ -20,7 +20,7 @@ function SobreNosHome(props) {
                             </div>
                         </div>
                         <p className="sobrenos-texto">{props.texto} </p>
-                        <div><a className="sobrenos-texto botao-ver" href="">{props.botao}</a></div>
+                        <div><Link to="/sobre-nos" className="sobrenos-texto botao-ver">{props.botao} </Link></div>
 
                     </div>
                     <div className="sobrenos-imgs">
@@ -48,7 +48,7 @@ function SobreNosHome(props) {
                                 <img src={linhaTituloDireita} alt="" />
                             </div>
                         </div>
-                        <p className="sobrenos-texto">{props.texto} </p>
+                        <p className="sobrenos-texto">{props.texto}</p>
                     </div>
                     <div className="sobrenos-imgs">
                         <img className="sobrenos-img" src={props.img1} alt="" />

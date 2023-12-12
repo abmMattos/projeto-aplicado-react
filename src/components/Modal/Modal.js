@@ -1,4 +1,5 @@
 import './Modal.css';
+import img from  '../../assets/whatsapp-logo.svg'
 
 
 export default function Modal({ isOpen, setOpen }) {
@@ -9,7 +10,7 @@ export default function Modal({ isOpen, setOpen }) {
                     <h2 className='titulo-popup'>Faça Seu Pedido</h2>
                     <div>
                         <div id="whatsapp" className="botao-popup">
-                            <img src="../assets/whatsapp-logo.svg" />
+                            <img className='whatsappImg' src={img} />
                             <a href="https://api.whatsapp.com/message/BKK2A3OLQVU3C1?autoload=1&app_absent=0" target='blank'>Whatsapp</a>
                         </div>
                         <div id="online" className="botao-popup">
