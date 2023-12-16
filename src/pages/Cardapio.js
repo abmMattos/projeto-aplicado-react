@@ -23,7 +23,7 @@ function Cardapio() {
             <Header titulo="Cardapio" tituloAmarelo="COMIDARIA" />
             <main>
                 <section className="diferencial-home">
-                    <TiposCard img={img} titulo="Comida Caseira" texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" />
+                    <TiposCard img={img} titulo="Comida Caseira" texto="Oferecemos o melhor da comida caseira, destacando-se pela autenticidade e sabor inigualável. Nossos pratos são preparados com ingredientes frescos e receitas tradicionais, proporcionando uma experiência culinária única e reconfortante. Descubra o prazer da verdadeira comida caseira na Comidaria Express." />
                 </section>
                 <section className="titulo-pagina">
                     <div className="linhas-titulo">

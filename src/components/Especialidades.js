@@ -5,6 +5,8 @@ import linhaTituloEsquerda from "../assets/linhas-titulo-esquerda.svg";
 import linhaTituloDireita from "../assets/linhas-titulo-direita.svg";
 import img2 from "../assets/img2-especialidade.png";
 import img3 from "../assets/img3-especialidade.png";
+import img5 from "../assets/img5-especialidade.png";
+import img6 from "../assets/img6-especialidade.png";
 import "./Especialidades.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -30,6 +32,16 @@ function Especialidades() {
       titulo: "Parmegiana & Strognoff",
       texto: "A partir de R$26,90",
       image: img3,
+    },
+    {
+      titulo: "Marmitas",
+      texto: "A partir de R$19,90",
+      image: img5,
+    },
+    {
+      titulo: "Caseiros Executivos",
+      texto: "A partir de R$21,90",
+      image: img6,
     },
     
   ];
