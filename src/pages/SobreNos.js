@@ -1,5 +1,5 @@
 import TiposCard from '../components/TiposCard';
-import img from '../assets/caseiro.svg';
+import img from '../assets/qualidade.svg';
 import Header from '../components/Header/Header';
 import Galeria from '../components/Galeria';
 import './sobre-nos.css';
@@ -15,7 +15,7 @@ function SobreNos() {
             <Header titulo="Sobre Nós" tituloAmarelo="COMIDARIA" />
             <main>
                 <section className="diferencial-home">
-                    <TiposCard img={img} titulo="Qualidade no Produto" texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" />
+                    <TiposCard img={img} titulo="Qualidade no Produto" texto="As marmitas da Comidaria Express garantem qualidade superior, com cada refeição preparada com ingredientes frescos para uma experiência culinária excepcional em sabor e nutrição." />
                 </section>
                 <SobreNosHome titulo="Sobre" tituloAmarelo="Nós" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem neque" img1={img1} img2={img2}/>
                 <section id="nossa-missao">

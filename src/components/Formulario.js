@@ -27,7 +27,7 @@ function Formulario() {
 
         emailjs.send("service_3x1oitb", "template_kiscbzh", templateParms, "sxjMEaGSferIiCUL7" )
         .then((response) => {
-            console.log("EMAIL ENVIADO", response.status, response.text);
+            alert("EMAIL ENVIADO", response.status, response.text);
             setAssunto('');
             setEmail('');
             setMensagem('');
@@ -67,7 +67,8 @@ function Formulario() {
                         <label for="">Escolha seu assunto</label>
                     </div>
                     <div>
-                        <select name="assunto" id="assunto" onChange={(e) => setAssunto(e.target.value)} required>
+                        <select placeholder="Selecione um campo" name="assunto" id="assunto" onChange={(e) => setAssunto(e.target.value)} required>
+                            <option></option>
                             <option value="trabalho">Trabalhe conosco</option>
                             <option value="feedback">Feedback</option>
                             <option value="outro">Outros</option>
