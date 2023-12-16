@@ -6,6 +6,7 @@ import localizacao from '../assets/localizacao.svg'
 import carta from '../assets/carta.svg'
 import telefone from '../assets/telefone.svg'
 import detalhe from '../assets/detalhe-formulario.svg'
+import Formulario from "../components/Formulario";
 
 
 function Contato() {
@@ -58,52 +59,7 @@ function Contato() {
                                 <img src={detalhe} alt="" />
                             </div>
                         </div>
-                        <form action="#" method="post">
-                            <div className="campos-geral">
-                                <div className="campos">
-                                    <div>
-                                        <label for="">Nome</label>
-                                    </div>
-                                    <div><input type="text" placeholder="Seu nome" /></div>
-                                </div>
-                                <div className="campos" id="campo-telefone">
-                                    <div>
-                                        <label for="">Telefone</label>
-                                    </div>
-                                    <div><input type="text" placeholder="(21) 99999-9999" /></div>
-                                </div>
-                                <div id="campo-email">
-                                    <div>
-                                        <label for="">E-mail</label>
-                                    </div>
-                                    <div>
-                                        <input type="email" placeholder="contato@email.com" />
-                                    </div>
-                                </div>
-                                <div className="campos">
-                                    <div>
-                                        <label for="">Escolha seu assunto</label>
-                                    </div>
-                                    <div>
-                                        <select name="assunto" id="assunto" required>
-                                            <option value="trabalho">Trabalhe conosco</option>
-                                            <option value="feedback">Feedback</option>
-                                            <option value="outro">Outros</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div className="campos">
-                                    <div>
-                                        <label for="">Mensagem</label>
-                                    </div>
-                                    <div><textarea name="mensagem" id="mensagem" cols="95" rows="5"
-                                        placeholder="Mensagem"></textarea></div>
-                                </div>
-                            </div>
-                            <div className="botao-formulario">
-                                <button type="submit">ENVIAR MENSAGEM</button>
-                            </div>
-                        </form>
+                        <Formulario />
                     </article>
                 </section>
             </main>
