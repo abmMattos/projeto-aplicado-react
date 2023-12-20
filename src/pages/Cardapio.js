@@ -37,54 +37,57 @@ function Cardapio() {
                     </div>
                 </section>
                 <div className="titulo-categoria">
-                        <h2><u>Marmitas</u></h2>
-                    </div>
-                    <section className="categoria">
+                    <h2><u>Marmitas</u></h2>
+                </div>
+                <section className="categoria">
                     <div classNames="itens">
                         <CardapioCard img={Espaguete} titulo="Marmita Omelete com queijo" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
                     </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Carne moída temperada" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Bife patinho grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="23,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Bife patinho acebolado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="23,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Bife patinho à milanesa" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="23,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Filé de tilápia grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="29,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Filé de tilápia à dorê" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="29,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Filé de frango grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Filé de frango empanado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Filé de sobrecoxa grelhada" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita linguiça Toscana" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Proteína de soja temperada" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
-                    </div>
-                    <div classNames="itens">
-                        <CardapioCard img={Espaguete} titulo="Marmita Tofu grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
-                    </div>
-                    </section>
-                    <div className="titulo-categoria">
-                        <h2><u>Caldos & Massas</u></h2>
-                    </div>
                     <section className="categoria">
-                  
+
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Carne moída temperada" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Bife patinho grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="23,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Bife patinho acebolado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="23,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Bife patinho à milanesa" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="23,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Filé de tilápia grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="29,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Filé de tilápia à dorê" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="29,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Filé de frango grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Filé de frango empanado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Filé de sobrecoxa grelhada" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita linguiça Toscana" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Proteína de soja temperada" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
+                        </div>
+                        <div classNames="itens">
+                            <CardapioCard img={Espaguete} titulo="Marmita Tofu grelhado" descricao="Acompanha arroz caseiro e feijão carioca + acompanhamento" preco="19,90" />
+                        </div>
+                    </section>
+                </section>
+                <div className="titulo-categoria">
+                    <h2><u>Caldos & Massas</u></h2>
+                </div>
+                <section className="categoria">
+
                     <div classNames="itens">
                         <CardapioCard img={Espaguete} titulo="Spaghetti" descricao="Espaguete, com molho vermelho, cebola, alho e carne moida " preco="15,90" />
                     </div>
@@ -103,10 +106,10 @@ molho branco, bacon, champignom. " preco="17,90" />
                 </section>
 
                 <div className="titulo-categoria">
-                        <h2><u>Yakisoba</u></h2>
-                    </div>
+                    <h2><u>Yakisoba</u></h2>
+                </div>
                 <section className="categoria">
-    
+
                     <div classNames="itens">
                         <CardapioCard img={YakisobaQueijo} titulo="Yakisoba de Queijo" descricao="Espaguete, cebola roxa, 
 cenoura, couve-flor, brócolis, ricota, 
@@ -122,9 +125,9 @@ cenoura, pimentão, brócolis, frango, champignon. " preco="17,90" />
                     </div>
                 </section>
                 <div className="titulo-categoria">
-                        <h2><u>Parmegiana e Strogonoff</u></h2>
-                    </div>
-                <section className="categoria">                  
+                    <h2><u>Parmegiana e Strogonoff</u></h2>
+                </div>
+                <section className="categoria">
                     <div className="itens">
                         <CardapioCard img={ParmegianaCarne} titulo="Parmegiana de Carne" descricao="Filé mignon, cebola, 
 alho, manjericão, tomate, 
