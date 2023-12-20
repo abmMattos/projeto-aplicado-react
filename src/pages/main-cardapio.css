@@ -33,6 +33,7 @@ main{
 .categoria{
     margin-left: 10vw;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     padding-bottom: 15vh;
 }

@@ -17,7 +17,7 @@ export default function Modal({ isOpen, setOpen }) {
                             <a href="https://pedido.anota.ai/loja/comidaria-gastronmica?from=site&utm_source=portal-share-btn&referer=https%3A%2F%2Fwww.google.com%2F" target='blank'>Fazer Pedido Online</a>
                         </div>
                         <div id="numero" className="botao-popup">
-                            <a href="#">(48) 99946-3095</a>
+                            <a href="tel:+5548999463095">(48) 99946-3095</a>
                         </div>
                         <button id="voltar" className="botao-ver-pedido" onClick={() => setOpen(!isOpen)}>Voltar</button>
 
