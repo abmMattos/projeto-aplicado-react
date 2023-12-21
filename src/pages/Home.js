@@ -3,12 +3,11 @@ import SobreNosHome from '../components/SobreNosHome';
 import img1 from '../assets/img1-sobrenos.svg';
 import img2 from '../assets/img2-sobrenos.svg';
 import FacaSeuPedido from '../components/FacaSeuPedido';
-import linhaTituloEsquerda from '../assets/linhas-titulo-esquerda.svg';
-import linhaTituloDireita from '../assets/linhas-titulo-direita.svg';
 import Especialidades from '../components/Especialidades';
 import Galeria from '../components/Galeria';
 import Header from '../components/Header/Header';
 import './home.css'
+import Funcionamento from '../components/Funcionamento';
 
 function Home() {
     return (
@@ -33,37 +32,7 @@ function Home() {
 
                 <Galeria />
 
-                <section>
-                    <div className="funcionamento-bg funcionamento-align">
-                        <div className="linhas-titulo-funcionamento funcionamento-titulo">
-                            <img src={linhaTituloEsquerda} alt="" />
-                            <h2 className="funcionamento-titulo">Funcionamento</h2>
-                            <img src={linhaTituloDireita} alt="" />
-                        </div>
-
-                        <div className="funcionamento">
-                            <p className="funcionamento-home-texto">Segunda-Feira: <span
-                                className="titulo-amarelo">........................................</span> 10:30 às 00:00</p>
-                            <p className="funcionamento-home-texto">Terça-Feira: <span
-                                className="titulo-amarelo">.............................................</span> 10:30 às 00:00
-                            </p>
-                            <p className="funcionamento-home-texto">Quarta-Feira: <span
-                                className="titulo-amarelo">...........................................</span> 10:30 às 00:00</p>
-                            <p className="funcionamento-home-texto">Quinta-Feira: <span
-                                className="titulo-amarelo">...........................................</span> 10:30 às 00:00</p>
-                            <p className="funcionamento-home-texto">Sexta-Feira: <span
-                                className="titulo-amarelo">.............................................</span> 10:30 às 00:00
-                            </p>
-                            <p className="funcionamento-home-texto">Sabádo: <span
-                                className="titulo-amarelo">.........................</span> 11:00 às 15:00 / 18:00 às 23:00</p>
-                            <p className="funcionamento-home-texto ultimo-p">Domingo: <span
-                                className="titulo-amarelo">..................................................</span> 11:00 às
-                                15:00</p>
-                        </div>
-
-                    </div>
-
-                </section>
+                <Funcionamento />
             </main>
         </div>
     )
