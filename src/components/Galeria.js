@@ -5,6 +5,7 @@ import img2 from "../assets/galeria-img2.png";
 import img3 from "../assets/galeria-img3.png";
 import img4 from "../assets/galeria-img4.png";
 import img5 from "../assets/galeria-img5.png";
+
 import instagram from "../assets/instagram.svg";
 import "./Galeria.css";
 
@@ -25,11 +26,13 @@ function Galeria() {
             </div>
 
             <div className="galeria-img">
-                <img id="dois" src={img1} alt="comida 1" />
-                <img src={img2} alt="comida 2" />
-                <img src={img3} alt="comida 5" />
-                <img id="normal" src={img4} alt="comida 3" />
-                <img id="meio" src={img5} alt="comida 4" />
+                <div><img src={img1} alt="comida 1" /></div>
+                <div><img src={img2} alt="comida 2" /></div>
+                <div><img src={img3} alt="comida 5" /></div>
+                <div><img src={img1} alt="comida 1" /></div>
+                <div><img src={img2} alt="comida 2" /></div>
+                <div><img src={img3} alt="comida 5" /></div>
+                
             </div>
             <div className="galeria-link">
                 <img src={instagram} alt="instagram" />

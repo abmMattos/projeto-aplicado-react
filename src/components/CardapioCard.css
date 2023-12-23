@@ -27,3 +27,6 @@
     height: 178px;
     width: 270px;
 }
+.item-categoria p {
+    width: 100%;
+}

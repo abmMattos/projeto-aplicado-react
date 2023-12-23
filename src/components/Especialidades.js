@@ -1,6 +1,6 @@
 import EspecialidadesCard from "./EspecialidadesCard";
 import img1 from "../assets/img1-especialidade.png";
-import FacaSeuPedido from "./FacaSeuPedido";
+import { Link } from 'react-router-dom';
 import linhaTituloEsquerda from "../assets/linhas-titulo-esquerda.svg";
 import linhaTituloDireita from "../assets/linhas-titulo-direita.svg";
 import img2 from "../assets/img2-especialidade.png";
@@ -84,7 +84,7 @@ function Especialidades() {
           ))}
         </Swiper>
 
-        <FacaSeuPedido />
+        <div><Link to="/cardapio" className="botao-ver">CARDÁPIO </Link></div>
       </div>
     </section>
   );

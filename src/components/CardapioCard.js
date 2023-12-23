@@ -15,7 +15,7 @@ function CardapioCard(props) {
                 </div>
                 <div className="valor-item">
                     <p><strong>Por apenas</strong></p>
-                    <span>R$ {props.preco}</span>
+                    <span>R${props.preco}</span>
                 </div>
             </article>
         </div>

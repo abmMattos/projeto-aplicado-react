@@ -16,6 +16,9 @@ export default function Modal({ isOpen, setOpen }) {
                         <div id="online" className="botao-popup">
                             <a href="https://pedido.anota.ai/loja/comidaria-gastronmica?from=site&utm_source=portal-share-btn&referer=https%3A%2F%2Fwww.google.com%2F" target='blank'>Fazer Pedido Online</a>
                         </div>
+                        <div id="ifood" className="botao-popup">
+                            <a href="https://www.ifood.com.br/delivery/florianopolis-sc/comidaria-express-itacorubi/d21acc04-4731-419c-b5ca-0f0919729f67" target='blank'>Ifood</a>
+                        </div>
                         <div id="numero" className="botao-popup">
                             <a href="tel:+5548999463095">(48) 99946-3095</a>
                         </div>
