@@ -12,7 +12,7 @@ import Formulario from "../components/Formulario";
 function Contato() {
     return (
         <div>
-            <Header titulo="Contato" tituloAmarelo="COMIDARIA" />
+            <Header titulo="" tituloAmarelo="CONTATO" />
             <main id="main-contato">
                 <section className="titulo-pagina">
                     <div className="linhas-titulo">

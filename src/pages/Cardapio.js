@@ -50,7 +50,7 @@ import EstrogonofeShimeji from '../assets/EstrogonofeShimeji.png'
 function Cardapio() {
     return (
         <div>
-            <Header titulo="Cardapio" tituloAmarelo="COMIDARIA" />
+            <Header titulo="" tituloAmarelo="CARDÁPIO" />
             <main>
                 <section className="diferencial-home">
                     <TiposCard img={img} titulo="Comida Caseira" texto="Na Comidaria Express, desfrute da autenticidade e sabor excepcional da nossa comida caseira, preparada com ingredientes frescos e receitas tradicionais. Descubra o prazer de uma experiência culinária única e reconfortante conosco." />

@@ -39,6 +39,10 @@
     padding: 10px;
 }
 
+.galeria-img div img:hover {
+    padding: 5px;
+}
+
 .galeria-link {
     background: #FFB000;
     border-radius: 4px;

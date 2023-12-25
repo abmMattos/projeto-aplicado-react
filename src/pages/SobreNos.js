@@ -12,7 +12,7 @@ import linhaTituloDireita from '../assets/linhas-titulo-direita.svg';
 function SobreNos() {
     return (
         <div>
-            <Header titulo="Sobre Nós" tituloAmarelo="COMIDARIA" />
+            <Header titulo="" tituloAmarelo="SOBRE NÓS" />
             <main>
                 <section className="diferencial-home">
                     <TiposCard img={img} titulo="Qualidade no Produto" texto="As marmitas da Comidaria Express garantem qualidade superior, com cada refeição preparada com ingredientes frescos para uma experiência culinária excepcional em sabor e nutrição." />
