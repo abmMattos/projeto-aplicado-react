@@ -1,0 +1,10 @@
+.diferencial-home {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+@media (max-width: 500px) {
+    .diferencial-home-tipos {
+        display: none;
+    }
+}

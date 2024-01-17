@@ -1,0 +1,61 @@
+.funcionamento-bg {
+    background-image: url(../assets/funcionamento-bg.png);
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.funcionamento-titulo {
+    display: flex;
+    align-items: baseline;
+    color: #FFF;
+    font-family: Jim Nightshade;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0px;
+    gap: 0px 25px;
+}
+
+
+.funcionamento {
+    display: grid;
+    text-align: center;
+}
+
+.funcionamento-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    line-height: 15px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.bg-info {
+    background-color: #ffffffa6;
+}
+
+.bg-info div {
+    margin: 40px;
+    padding: 0px 10px;
+}
+
+.funcionamento-align {
+    display: grid;
+}
+
+.ultimo-p {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 500px) {
+    .funcionamento-titulo {
+        font-size: 40px;
+    }
+}
